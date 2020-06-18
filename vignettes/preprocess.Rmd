@@ -1,0 +1,20 @@
+---
+title: "preprocess"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{preprocess}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r}
+sagemaker::sagemaker_get_execution_role()
+```
+
