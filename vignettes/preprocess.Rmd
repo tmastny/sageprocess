@@ -15,6 +15,6 @@ knitr::opts_chunk$set(
 ```
 
 ```{r}
-sagemaker::sagemaker_get_execution_role()
+
 ```
 
